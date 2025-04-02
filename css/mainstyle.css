@@ -1,0 +1,52 @@
+*{
+
+}
+
+
+body{
+    background-color: rgb(31, 26, 24);
+    color: rgb(12, 80, 26);
+    font-size: 40px;
+    font-family: 'UnifrakturCook';
+    text-align: center;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+ a, a:hover, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;
+    }
+.text{
+   
+    font-family: 'UnifrakturCook';
+}
+
+.strongid{
+    transition-duration: 1s;
+    font-weight: bold;
+    position: relative;
+    top: 1000px;
+    padding-bottom: 200px;
+    font-size: 45px;
+}
+
+.strongid:hover{
+    color: rgb(121, 119, 119);
+    text-shadow: 2px 2px 4px rgb(52, 51, 51); 
+    font-size: 50px;
+}
+/*#strongid{
+    transition-timing-function: ease-in;
+    font-family: 'UnifrakurMaguntia';
+    
+}
+#strongid:hover{
+    color: rgb(121, 119, 119);
+    text-shadow: 2px 2px 4px rgb(52, 51, 51);
+
+}*/
+

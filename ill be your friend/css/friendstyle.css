@@ -1,0 +1,45 @@
+*{
+
+}
+
+
+body{
+    
+    background-color: rgb(31, 26, 24);
+    color: rgb(12, 80, 26);
+    font-size: 40px;
+    font-family: 'UnifrakturCook';
+    padding-top: 150px;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*margin-left: 333px;
+    margin-right: 333px;*/
+    
+
+}
+
+a, a:hover, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;
+    }
+
+#div5{
+    position: relative;
+    left: -50;
+}
+
+.long{
+    color: rgb(57, 123, 67); 
+   
+}
+.long:hover{
+
+    transition: 3s;
+    display: flex;
+    color: rgb(83, 154, 93);
+    transform: translate(250px,0)
+
+}
